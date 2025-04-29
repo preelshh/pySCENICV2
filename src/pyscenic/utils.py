@@ -273,7 +273,7 @@ def modules_from_adjacencies(
     min_genes=20,
     absolute_thresholds=False,
     rho_dichotomize=True,
-    keep_only_activating=True,
+    keep_only_activating=False,
     rho_threshold=RHO_THRESHOLD,
     rho_mask_dropouts=False,
 ) -> Sequence[Regulon]:
